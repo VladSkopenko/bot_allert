@@ -1,0 +1,9 @@
+services:
+  bot:
+    build: .
+    env_file: .env
+    environment:
+      STATE_PATH: /app/data/state.json
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

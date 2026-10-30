@@ -1,0 +1,8 @@
+.env
+data/
+.venv/
+tests/
+docs/
+**/__pycache__
+*.md
+LICENSE
